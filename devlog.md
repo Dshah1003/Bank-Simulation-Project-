@@ -13,3 +13,14 @@ This requires synchronization using semaphores.
 - Set up Git repo and initial project folder
 - Write this devlog entry and commit it
 - Review and outline thread classes and shared semaphores in a design diagram (next step)
+
+## April 12, 2025 – 6:00 PM
+
+### Thoughts So Far
+Broke down the shared resources and how customers/tellers communicate.
+Started implementing the core simulation logic using threads and semaphores in Python.
+
+### Plan for Next Session
+- Add more print/logging statements for output formatting
+- Refine manager/safe interaction logic
+- Make sure output matches assignment format exactly
