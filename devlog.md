@@ -70,3 +70,27 @@ The customer and teller thread logic is now fully implemented and synchronized. 
 - Run a full test with all 50 customer threads.
 - Verify all logs print correctly and no deadlocks occur.
 - Create README and prep project for submission.
+
+
+## April 12, 2025 – 7:45 PM
+
+### Thoughts So Far
+Ran the simulation with 50 customers and everything executed successfully. All customers were served by one of the 3 tellers. There were no deadlocks or synchronization issues. The logs followed the required format and showed proper sequencing of events (entry, teller selection, manager/safe access, transaction, and exit).
+
+### What I Did This Session
+- Tested the full run of the program using 50 customer threads.
+- Validated:
+  - Max 2 customers inside the bank at a time.
+  - Only 2 tellers using the safe concurrently.
+  - Only 1 teller with the manager at any time.
+- Observed randomized transaction types (Withdraw/Deposit).
+- Verified that all customer–teller interactions completed.
+- Checked the final summary message: `All customers have been served. Bank is closing.`
+- Confirmed no issues even with heavy concurrency.
+
+### Final Thoughts
+Happy with how the project turned out! This helped me understand thread synchronization using semaphores in real-world scenarios. I now feel more confident handling concurrency in operating systems and system-level design.
+
+### Plan for Next Session
+- Final commit and ZIP creation.
+- Submit the project on eLearning.
