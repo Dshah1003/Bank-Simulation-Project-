@@ -1,0 +1,41 @@
+commit 65ab5c7f455dad5bec035b8ce0ff4826c6dc1d4b
+Author: Dshah1003 <sdrashti.10jan@gmail.com>
+Date:   Sat Apr 12 19:31:38 2025 -0500
+
+    Finale Updated devlog file
+
+commit 7e3afb61adf55c06a4f950452638f6f8b513eaff
+Author: Dshah1003 <sdrashti.10jan@gmail.com>
+Date:   Sat Apr 12 19:29:25 2025 -0500
+
+    Upadated the Devlog File
+
+commit ddf73a3442673d24347dab75a17d81f41bc311b2
+Author: Dshah1003 <sdrashti.10jan@gmail.com>
+Date:   Sat Apr 12 18:44:02 2025 -0500
+
+    Upadated the Readme File and further added 50 customers
+
+commit 82937c760a168172dfbfcfd1e3411a67207df683
+Author: Dshah1003 <sdrashti.10jan@gmail.com>
+Date:   Sat Apr 12 18:36:39 2025 -0500
+
+    Finalized teller-customer interaction with proper logging and semaphore sync
+
+commit a9566f2bca00c172ba9859b8808b5a408daead44
+Author: Dshah1003 <sdrashti.10jan@gmail.com>
+Date:   Sat Apr 12 18:23:34 2025 -0500
+
+    Updated the code teller - coustomer interaction
+
+commit dd0bf9ef0e709ab273b64ae61b0d100373715150
+Author: Dshah1003 <sdrashti.10jan@gmail.com>
+Date:   Sat Apr 12 18:00:15 2025 -0500
+
+    Added thread skeletons and core semaphore setup
+
+commit 444e4a252c736b2e4fe372f439a4a32569ae2628
+Author: Dshah1003 <sdrashti.10jan@gmail.com>
+Date:   Sat Apr 12 17:58:10 2025 -0500
+
+    Initial commit with devlog entry and project planning
