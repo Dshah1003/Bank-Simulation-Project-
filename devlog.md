@@ -45,3 +45,28 @@ Tested with 5 customers to verify correctness.
 - Scale up to 50 customers
 - Add README and test logs
 - Prepare for final packaging
+
+## April 12, 2025 – 7:30 PM
+
+### Thoughts So Far
+The customer and teller thread logic is now fully implemented and synchronized. I used semaphores to control access to shared resources like the manager's office and the safe, and also to ensure proper communication between threads.
+
+### What I Did This Session
+- Completed the full `Customer.run()` method:
+  - Customers wait at the door using a semaphore (max 2 inside).
+  - Each customer chooses a teller by acquiring a lock.
+  - Passes the transaction type (Deposit or Withdraw) to the teller using a shared list.
+  - Waits for transaction to complete, then leaves.
+- Finalized the `Teller.run()` method:
+  - Waits for a customer signal.
+  - Reads the transaction type.
+  - For Withdrawals: interacts with the manager (mutex with semaphore).
+  - Uses the safe (limited to 2 tellers).
+  - Notifies customer that transaction is complete.
+- Ensured log formatting is clean: `THREAD_TYPE ID [THREAD_TYPE ID]: message`.
+- Validated this logic with a small test run using 5 customers.
+
+### Plan for Next Session
+- Run a full test with all 50 customer threads.
+- Verify all logs print correctly and no deadlocks occur.
+- Create README and prep project for submission.
