@@ -109,4 +109,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-customers = [Customer(i) for i in range(50)]
+customers = [Customer(i) for i in range(5)]
