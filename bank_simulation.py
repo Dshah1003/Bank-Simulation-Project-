@@ -3,8 +3,8 @@ import time
 import random
 
 # Shared resources
-door_semaphore = threading.Semaphore(2)        # Only 2 customers can enter bank at a time
-safe_semaphore = threading.Semaphore(2)        # Only 2 tellers in the safe at a time
+door_semaphore = threading.Semaphore(1)        # Only 2 customers can enter bank at a time
+safe_semaphore = threading.Semaphore(1)        # Only 2 tellers in the safe at a time
 manager_semaphore = threading.Semaphore(1)     # Only 1 teller with manager at a time
 
 # Teller communication structures
